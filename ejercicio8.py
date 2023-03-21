@@ -9,7 +9,7 @@
 # contrario. 
 #  Además, la retirada de dinero sólo se podrá hacer si el titular es válido. 
 #  El método mostrar() debe devolver el mensaje de “Cuenta Joven” y la bonificación de la cuenta.
-from integracion1 import Cuenta
+from ejercicio6y7 import Cuenta
 class CuentaJoven(Cuenta):
     #CONSTRUCTOR
     def __init__(self,titular,cantidad=0,bonificacion=0):
